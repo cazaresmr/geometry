@@ -108,6 +108,7 @@ const taskTemplates = {
 const resourceTypes = [
   ["handout", "Student handout", "Notes, examples, and student-facing directions."],
   ["practice", "Problem set", "Core practice plus support and extension options."],
+  ["exit-slip", "Exit slip", "Daily check for understanding."],
   ["desmos", "Desmos activity", "Exploration or visual check when available."],
   ["assessment", "Quiz/checkpoint", "Daily quiz, weekly assessment, capstone rubric, or final."],
   ["answers", "Answer release", "Selected answers or scoring notes after class."]
@@ -119,6 +120,7 @@ const progress = JSON.parse(localStorage.getItem("geometryProgress") || "{}");
 const resourceLinks = {
   // Replace these examples as materials are ready.
   // "day-01-handout": "https://docs.google.com/document/d/...",
+  // "day-01-exit-slip": "materials/day-01/exit-slip.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
