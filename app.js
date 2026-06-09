@@ -120,7 +120,7 @@ const progress = JSON.parse(localStorage.getItem("geometryProgress") || "{}");
 const resourceLinks = {
   // Replace these examples as materials are ready.
   // "day-01-handout": "https://docs.google.com/document/d/...",
-  // "day-01-exit-slip": "materials/day-01/exit-slip.pdf",
+  "day-01-exit-slip": "materials/day-01/exit-slip.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
