@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Geometry Summer Credit</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Incoming Grade 9 | 28 days | Geometry credit</p>
+        <h1>Geometry Summer Credit</h1>
+      </div>
+      <nav class="topnav" aria-label="Course views">
+        <button class="nav-button active" data-view="dashboard">
+          Dashboard
+        </button>
+        <button class="nav-button" data-view="mastery">Mastery</button>
+        <button class="nav-button" data-view="assessments">Assessments</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="course-visual" aria-label="Course visual">
+        <img
+          src="assets/geometry-board.png"
+          alt="Graph paper with geometric figures"
+        />
+        <div class="course-card">
+          <p>Today</p>
+          <strong id="today-title">Day 1</strong>
+          <span id="today-subtitle"
+            >Coordinate plane and angle relationships</span
+          >
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Course controls">
+        <label>
+          Jump to day
+          <select id="day-select"></select>
+        </label>
+        <label>
+          Search
+          <input
+            id="search-input"
+            type="search"
+            placeholder="slope, trig, circles..."
+          />
+        </label>
+        <button id="reset-progress" class="quiet-button">Reset progress</button>
+      </section>
+
+      <section id="dashboard-view" class="view active-view">
+        <aside class="day-list-panel">
+          <div class="panel-title">
+            <h2>Course Days</h2>
+            <span id="progress-summary">0% complete</span>
+          </div>
+          <div id="day-list" class="day-list"></div>
+        </aside>
+
+        <article class="lesson-panel">
+          <div class="lesson-header">
+            <div>
+              <p class="eyebrow" id="day-badge">Day 1</p>
+              <h2 id="lesson-title">
+                Coordinate Plane, Distance, Midpoint, and Angles
+              </h2>
+            </div>
+            <span id="assessment-chip" class="chip">Daily quiz</span>
+          </div>
+
+          <div class="lesson-grid">
+            <section>
+              <h3>Lesson A</h3>
+              <p id="lesson-a"></p>
+            </section>
+            <section>
+              <h3>Lesson B</h3>
+              <p id="lesson-b"></p>
+            </section>
+            <section>
+              <h3>Standards</h3>
+              <p id="standards"></p>
+            </section>
+            <section>
+              <h3>Spiral Review</h3>
+              <p id="spiral"></p>
+            </section>
+          </div>
+
+          <section class="flow-section">
+            <h3>Lesson Flow</h3>
+            <div id="flow-list" class="flow-list"></div>
+          </section>
+
+          <section class="practice-section">
+            <h3>Student Work</h3>
+            <div class="work-cards">
+              <div>
+                <span class="label">Problem set</span>
+                <p>Core practice, support lane, and extension problems.</p>
+              </div>
+              <div>
+                <span class="label">Exit slip</span>
+                <p>
+                  One fluency item, one reasoning item, and one explanation or
+                  error-analysis item.
+                </p>
+              </div>
+              <div>
+                <span class="label">Assessment</span>
+                <p id="assessment-note">
+                  Daily quiz with current content, spiral review, error
+                  analysis, and challenge.
+                </p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </section>
+
+      <section id="mastery-view" class="view">
+        <div class="wide-panel">
+          <div class="panel-title">
+            <h2>Mastery Map</h2>
+            <span>80% = mastery</span>
+          </div>
+          <div id="mastery-list" class="mastery-list"></div>
+        </div>
+      </section>
+
+      <section id="assessments-view" class="view">
+        <div class="wide-panel">
+          <div class="panel-title">
+            <h2>Assessments</h2>
+            <span>Credit based on total course grade</span>
+          </div>
+          <div class="assessment-grid">
+            <section>
+              <h3>Gradebook</h3>
+              <div id="gradebook-list" class="stack-list"></div>
+            </section>
+            <section>
+              <h3>Cumulative Checkpoints</h3>
+              <div id="checkpoint-list" class="stack-list"></div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
