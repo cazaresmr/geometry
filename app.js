@@ -123,6 +123,8 @@ const resourceLinks = {
   "day-01-practice": "materials/day-01/problem-set.pdf",
   "day-01-exit-slip": "materials/day-01/exit-slip.pdf",
   "day-01-assessment": "materials/day-01/quiz.pdf",
+  "day-02-handout": "materials/day-02/handout.pdf",
+  "day-02-practice": "materials/day-02/problem-set.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
@@ -132,6 +134,8 @@ const releasedResources = {
   "day-01-practice": true,
   "day-01-exit-slip": false,
   "day-01-assessment": false,
+  "day-02-handout": true,
+  "day-02-practice": true,
 };
 
 const dayList = document.querySelector("#day-list");
@@ -252,14 +256,18 @@ function renderTasks(day) {
 
 function renderResources(day) {
   document.querySelector("#resource-list").innerHTML = resourceTypes
+    .filter(([key]) => {
+      const resourceKey = `day-${String(day.number).padStart(2, "0")}-${key}`;
+      return Boolean(resourceLinks[resourceKey]);
+    })
     .map(([key, title, detail]) => {
       const resourceKey = `day-${String(day.number).padStart(2, "0")}-${key}`;
       const href = resourceLinks[resourceKey];
       const released = releasedResources[resourceKey] === true;
-      const state = href && released ? "Available" : href ? "Locked" : "Coming soon";
+      const state = released ? "Available" : "Locked";
       const link = href && released
         ? `<a class="resource-button" href="${href}" target="_blank" rel="noopener">Open</a>`
-        : `<button class="resource-button disabled" type="button" disabled>${href ? "Locked" : "Add link"}</button>`;
+        : `<button class="resource-button disabled" type="button" disabled>Locked</button>`;
       return `
         <article class="resource-card">
           <div>
