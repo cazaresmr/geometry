@@ -131,6 +131,10 @@ const resourceLinks = {
   "day-03-practice": "materials/day-03/problem-set.pdf",
   "day-03-exit-slip": "materials/day-03/exit-slip.pdf",
   "day-03-assessment": "materials/day-03/quiz.pdf",
+  "day-04-handout": "materials/day-04/handout.pdf",
+  "day-04-practice": "materials/day-04/problem-set.pdf",
+  "day-04-exit-slip": "materials/day-04/exit-slip.pdf",
+  "day-04-assessment": "materials/day-04/quiz.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
