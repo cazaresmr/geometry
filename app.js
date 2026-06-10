@@ -127,6 +127,13 @@ const resourceLinks = {
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
 
+const releasedResources = {
+  "day-01-handout": true,
+  "day-01-practice": true,
+  "day-01-exit-slip": false,
+  "day-01-assessment": false,
+};
+
 const dayList = document.querySelector("#day-list");
 const daySelect = document.querySelector("#day-select");
 const searchInput = document.querySelector("#search-input");
@@ -248,10 +255,11 @@ function renderResources(day) {
     .map(([key, title, detail]) => {
       const resourceKey = `day-${String(day.number).padStart(2, "0")}-${key}`;
       const href = resourceLinks[resourceKey];
-      const state = href ? "Available" : "Coming soon";
-      const link = href
+      const released = releasedResources[resourceKey] === true;
+      const state = href && released ? "Available" : href ? "Locked" : "Coming soon";
+      const link = href && released
         ? `<a class="resource-button" href="${href}" target="_blank" rel="noopener">Open</a>`
-        : `<button class="resource-button disabled" type="button" disabled>Add link</button>`;
+        : `<button class="resource-button disabled" type="button" disabled>${href ? "Locked" : "Add link"}</button>`;
       return `
         <article class="resource-card">
           <div>
