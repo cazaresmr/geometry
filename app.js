@@ -125,6 +125,8 @@ const resourceLinks = {
   "day-01-assessment": "materials/day-01/quiz.pdf",
   "day-02-handout": "materials/day-02/handout.pdf",
   "day-02-practice": "materials/day-02/problem-set.pdf",
+  "day-02-exit-slip": "materials/day-02/exit-slip.pdf",
+  "day-02-assessment": "materials/day-02/quiz.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
   // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
@@ -136,6 +138,8 @@ const releasedResources = {
   "day-01-assessment": false,
   "day-02-handout": true,
   "day-02-practice": true,
+  "day-02-exit-slip": false,
+  "day-02-assessment": false,
 };
 
 const dayList = document.querySelector("#day-list");
