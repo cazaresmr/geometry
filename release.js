@@ -8,4 +8,9 @@ window.releasedResources = {
   "day-02-practice": true,
   "day-02-exit-slip": false,
   "day-02-assessment": false,
+
+  "day-03-handout": true,
+  "day-03-practice": true,
+  "day-03-exit-slip": false,
+  "day-03-assessment": false,
 };
