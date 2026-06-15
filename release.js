@@ -18,4 +18,9 @@ window.releasedResources = {
   "day-04-practice": true,
   "day-04-exit-slip": false,
   "day-04-assessment": false,
+
+  "day-05-handout": true,
+  "day-05-practice": true,
+  "day-05-exit-slip": false,
+  "day-05-assessment": false,
 };

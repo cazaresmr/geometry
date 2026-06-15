@@ -135,8 +135,11 @@ const resourceLinks = {
   "day-04-practice": "materials/day-04/problem-set.pdf",
   "day-04-exit-slip": "materials/day-04/exit-slip.pdf",
   "day-04-assessment": "materials/day-04/quiz.pdf",
+  "day-05-handout": "materials/day-05/handout.pdf",
+  "day-05-practice": "materials/day-05/problem-set.pdf",
+  "day-05-exit-slip": "materials/day-05/exit-slip.pdf",
+  "day-05-assessment": "materials/day-05/quiz.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
-  // "day-05-assessment": "https://docs.google.com/forms/d/..."
 };
 
 const dayList = document.querySelector("#day-list");
