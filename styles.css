@@ -88,6 +88,12 @@ h3 {
   padding: 9px 12px;
 }
 
+.nav-link {
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+}
+
 .nav-button.active {
   background: var(--focus);
   border-color: var(--focus);
