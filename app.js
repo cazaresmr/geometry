@@ -106,6 +106,7 @@ const taskTemplates = {
 };
 
 const resourceTypes = [
+  ["notes", "Notes overview", "One-page guide to today’s big ideas, vocabulary, quick reference, and common mistakes."],
   ["handout", "Student handout", "Notes, examples, and student-facing directions."],
   ["practice", "Problem set", "Core practice plus support and extension options."],
   ["exit-slip", "Exit slip", "Daily check for understanding."],
@@ -144,6 +145,7 @@ const resourceLinks = {
   "day-06-exit-slip": "materials/day-06/exit-slip.pdf",
   "day-06-assessment": "materials/day-06/quiz.pdf",
   "day-07-handout": "materials/day-07/handout.pdf",
+  "day-07-notes": "materials/day-07/notes-overview.pdf",
   "day-07-practice": "materials/day-07/problem-set.pdf",
   "day-07-exit-slip": "materials/day-07/exit-slip.pdf",
   "day-07-assessment": "materials/day-07/quiz.pdf",
