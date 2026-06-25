@@ -42,11 +42,13 @@ window.releasedResources = {
   "day-08-assessment": false,
 
   "day-09-handout": true,
+  "day-09-notes": true,
   "day-09-practice": true,
   "day-09-exit-slip": false,
   "day-09-assessment": false,
 
   "day-10-handout": true,
+  "day-10-notes": true,
   "day-10-practice": true,
   "day-10-exit-slip": false,
   "day-10-assessment": false,
