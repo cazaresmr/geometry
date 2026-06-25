@@ -1,40 +1,48 @@
 window.releasedResources = {
+  "day-01-hybrid-notes": true,
   "day-01-handout": true,
   "day-01-practice": true,
   "day-01-exit-slip": false,
   "day-01-assessment": false,
 
+  "day-02-hybrid-notes": true,
   "day-02-handout": true,
   "day-02-practice": true,
   "day-02-exit-slip": false,
   "day-02-assessment": false,
 
+  "day-03-hybrid-notes": true,
   "day-03-handout": true,
   "day-03-practice": true,
   "day-03-exit-slip": false,
   "day-03-assessment": false,
 
+  "day-04-hybrid-notes": true,
   "day-04-handout": true,
   "day-04-practice": true,
   "day-04-exit-slip": false,
   "day-04-assessment": false,
 
+  "day-05-hybrid-notes": true,
   "day-05-handout": true,
   "day-05-practice": true,
   "day-05-exit-slip": false,
   "day-05-assessment": false,
 
+  "day-06-hybrid-notes": true,
   "day-06-handout": true,
   "day-06-practice": true,
   "day-06-exit-slip": false,
   "day-06-assessment": false,
 
+  "day-07-hybrid-notes": true,
   "day-07-handout": true,
   "day-07-notes": true,
   "day-07-practice": true,
   "day-07-exit-slip": false,
   "day-07-assessment": false,
 
+  "day-08-hybrid-notes": true,
   "day-08-handout": true,
   "day-08-notes": true,
   "day-08-practice": true,
@@ -50,20 +58,24 @@ window.releasedResources = {
 
   "day-10-handout": true,
   "day-10-notes": true,
+  "day-10-hybrid-notes": true,
   "day-10-practice": true,
   "day-10-exit-slip": false,
   "day-10-assessment": false,
 
+  "day-11-hybrid-notes": true,
   "day-11-handout": true,
   "day-11-practice": true,
   "day-11-exit-slip": false,
   "day-11-assessment": false,
 
+  "day-12-hybrid-notes": true,
   "day-12-handout": true,
   "day-12-practice": true,
   "day-12-exit-slip": false,
   "day-12-assessment": false,
 
+  "day-13-hybrid-notes": true,
   "day-13-handout": true,
   "day-13-practice": true,
   "day-13-exit-slip": false,
