@@ -107,6 +107,7 @@ const taskTemplates = {
 
 const resourceTypes = [
   ["notes", "Notes overview", "One-page guide to today’s big ideas, vocabulary, quick reference, and common mistakes."],
+  ["hybrid-notes", "Hybrid notes", "Two-page guided note-taking handout with cloze notes, outline notes, and active learning."],
   ["handout", "Student handout", "Notes, examples, and student-facing directions."],
   ["practice", "Problem set", "Core practice plus support and extension options."],
   ["exit-slip", "Exit slip", "Daily check for understanding."],
@@ -156,6 +157,7 @@ const resourceLinks = {
   "day-08-assessment": "materials/day-08/quiz.pdf",
   "day-09-handout": "materials/day-09/handout.pdf",
   "day-09-notes": "materials/day-09/notes-overview.pdf",
+  "day-09-hybrid-notes": "materials/day-09/hybrid-notes.pdf",
   "day-09-practice": "materials/day-09/problem-set.pdf",
   "day-09-exit-slip": "materials/day-09/exit-slip.pdf",
   "day-09-assessment": "materials/day-09/quiz.pdf",

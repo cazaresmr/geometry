@@ -43,6 +43,7 @@ window.releasedResources = {
 
   "day-09-handout": true,
   "day-09-notes": true,
+  "day-09-hybrid-notes": true,
   "day-09-practice": true,
   "day-09-exit-slip": false,
   "day-09-assessment": false,
