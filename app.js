@@ -250,6 +250,11 @@ const resourceLinks = {
   "day-25-practice": "materials/day-25/problem-set.pdf",
   "day-25-exit-slip": "materials/day-25/exit-slip.pdf",
   "day-25-assessment": "materials/day-25/quiz.pdf",
+  "day-26-hybrid-notes": "materials/day-26/hybrid-notes.pdf",
+  "day-26-handout": "materials/day-26/handout.pdf",
+  "day-26-practice": "materials/day-26/problem-set.pdf",
+  "day-26-exit-slip": "materials/day-26/exit-slip.pdf",
+  "day-26-assessment": "materials/day-26/quiz.pdf",
   // "day-01-desmos": "https://www.desmos.com/calculator/...",
 };
 
