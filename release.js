@@ -140,4 +140,10 @@ window.releasedResources = {
   "day-23-practice": true,
   "day-23-exit-slip": false,
   "day-23-assessment": false,
+
+  "day-24-hybrid-notes": true,
+  "day-24-handout": true,
+  "day-24-practice": true,
+  "day-24-exit-slip": false,
+  "day-24-assessment": false,
 };
